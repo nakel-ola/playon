@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { TickCircle } from "iconsax-react";
 import { useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -23,9 +22,8 @@ const FilterCard = ({ setActive }: { setActive(state: boolean): void }) => {
 
 
   return (
-    <motion.div
+    <div
       ref={ref}
-      layout
       className="absolute top-11 right-0 z-50 max-h-[250px] w-[300px] rounded-lg bg-neutral-900 shadow shadow-black overflow-scroll scrollbar-hide"
     >
       <div className="">
@@ -84,7 +82,7 @@ const FilterCard = ({ setActive }: { setActive(state: boolean): void }) => {
           {(videoType === "tv" ? tvGenres : genres).map(
             (prop: Genre, index: number) => {
               return (
-                <motion.div
+                <div
                   key={index}
                   className={` hover:bg-white/10 w-fit rounded-full m-2 flex items-center justify-between cursor-pointer ${
                     genre.id === prop.id
@@ -105,7 +103,7 @@ const FilterCard = ({ setActive }: { setActive(state: boolean): void }) => {
                   >
                     {prop.name}
                   </p>
-                </motion.div>
+                </div>
               );
             }
           )}
@@ -121,7 +119,7 @@ const FilterCard = ({ setActive }: { setActive(state: boolean): void }) => {
           Apply Filter
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { PlayCircle } from "iconsax-react";
 import React, { MouseEvent, useCallback, useRef, useState } from "react";
-import { IoClose } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useDispatch } from "react-redux";
 import useSWR from "swr";
