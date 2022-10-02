@@ -52,7 +52,6 @@ const Discover = () => {
           async () => await fetchVideo<Movie>(url, type)
         );
       } else {
-        console.log(page);
         return await mutate<TMDBResponse<Movie[]>>(
           `${config.BASE_URL}discover/${type}?api_key=${config.API_KEY}&with_genres=${explore.id}&page=${page}`,
           async () => await getMoviesBycategory(explore.id, type, false, page)
@@ -96,7 +95,7 @@ const Discover = () => {
                 <Card key={index} {...prop} />
               ))}
             </div>
-            <div className="grid place-items-center">
+            <div className="grid place-items-center overflow-scroll w-full scrollbar-hide">
               <ReactPaginate
                 breakLabel="•••"
                 nextLabel={<ArrowRight2 size={25} className="text-white" />}

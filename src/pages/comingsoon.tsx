@@ -23,8 +23,6 @@ const Comingsoon = () => {
 
     const res = await fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${config.API_KEY}&language=en-US&page=1`).then((response) => response.json());
 
-    console.log(res);
-
     setData(res);
     setLoading(false);
   }, []);
@@ -55,7 +53,7 @@ const Comingsoon = () => {
               {data?.results.map((prop: Movie, index: number) => (
                 <Card key={index} {...prop} />
               ))}
-              <div className="grid place-items-center">
+              <div className="grid place-items-center overflow-scroll w-full scrollbar-hide">
                 <ReactPaginate
                   breakLabel="•••"
                   nextLabel={<ArrowRight2 size={25} className="text-white" />}

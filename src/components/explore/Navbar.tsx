@@ -19,8 +19,13 @@ const Navbar = ({ title }: { title: string }) => {
     <div className="flex items-center justify-between px-2 sticky top-0 z-50 bg-neutral-900">
       <p className="text-white text-2xl md:text-3xl m-2 ">{truncate(title,title.length)}</p>
 
+
+      <button className="bg-white/10 md:hidden flex items-center justify-center w-[35px] h-[35px] rounded-full m-2" onClick={() => router.push("/search")}>
+        <SearchNormal1 size={20} className="text-white" />
+      </button>
+
       <div
-        className={`flex items-center ${input.length > 0 ? "flex-[0.5]" : ""}`}
+        className={`hidden md:flex items-center ${input.length > 0 ? "flex-[0.5]" : ""}`}
       >
         <form
           className="bg-white/10 flex-1 h-[35px] rounded-full flex items-center overflow-hidden"
