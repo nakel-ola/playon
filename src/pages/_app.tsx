@@ -30,6 +30,11 @@ function MyApp({ Component, pageProps }: AppProps) {
               href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
               rel="stylesheet"
             />
+
+            <meta
+              name="google-site-verification"
+              content="kFXzOWt-zLMwRqqGlPyUXKTworDZrhWV0Oh7_8pMdno"
+            />
           </Head>
           <Component {...pageProps} />
         </Layout>
