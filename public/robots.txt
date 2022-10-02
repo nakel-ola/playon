@@ -2,8 +2,7 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: http://playon.vercel.app
+# Hosts://playon.vercel.app
 
 # Sitemaps
-Sitemap: http://playon.vercel.app/sitemap.xml
+Sitemap: https://playon.vercel.app/sitemap.xml

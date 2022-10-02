@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: "http://playon.vercel.app",
+    siteUrl: "https://playon.vercel.app",
     generateRobotsTxt: true,
 }
