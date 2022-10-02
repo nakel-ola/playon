@@ -104,7 +104,7 @@ const Card = ({
         />
       </div>
 
-      <div className="m-2 pl-2">
+      <div className="m-2 pl-2 cursor-pointer">
         <p className="text-white text-lg font-bold">
           {truncate(title! ?? name! ?? original_title!, 25)}
         </p>

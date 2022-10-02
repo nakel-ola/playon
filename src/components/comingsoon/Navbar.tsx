@@ -1,6 +1,7 @@
 import { CloseCircle, SearchNormal1 } from "iconsax-react";
 import { useRouter } from "next/router";
 import React, { FormEvent, useState } from "react";
+import { InputField } from "../search/Navbar";
 
 const Navbar = () => {
   const [input, setInput] = useState("");
@@ -23,35 +24,8 @@ const Navbar = () => {
         <SearchNormal1 size={20} className="text-white" />
       </button>
 
-      <div
-        className={`hidden md:flex items-center md:w-fit ${input.length > 0 ? "flex-[0.5]" : ""}`}
-      >
-        <form className="bg-white/10 md:flex-1 h-[35px] rounded-full flex items-center overflow-hidden" onSubmit={handleSearch}>
-          <input
-            type="text"
-            className="bg-transparent outline-0 border-0 text-white w-[150px] md:w-full md:flex-1 m-2"
-            placeholder="Search"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-          />
+      <InputField />
 
-          {input && (
-            <span
-              className="h-full flex items-center justify-center"
-              onClick={() => setInput("")}
-            >
-              <CloseCircle variant="Bold" size={18} className="text-white" />
-            </span>
-          )}
-
-          <span
-            className="h-full shrink-0 w-[35px] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-white/10"
-            onClick={() => input && router.push(`/search?q=${input}`)}
-          >
-            <SearchNormal1 size={20} className="text-white" />
-          </span>
-        </form>
-      </div>
     </div>
   );
 };
