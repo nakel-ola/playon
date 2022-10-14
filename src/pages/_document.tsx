@@ -5,7 +5,7 @@ class WebDocument extends Document {
     return (
       <Html lang="en-US">
         <Head></Head>
-        <Script
+        {/* <Script
           strategy="afterInteractive"
           id=""
           dangerouslySetInnerHTML={{
@@ -15,9 +15,9 @@ class WebDocument extends Document {
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-NR4R8ZJ');`,
           }}
-        ></Script>
+        ></Script> */}
         <body>
-          <noscript>
+          {/* <noscript>
             <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-NR4R8ZJ"
               height="0"
@@ -27,7 +27,7 @@ class WebDocument extends Document {
                 visibility: "hidden",
               }}
             ></iframe>
-          </noscript>
+          </noscript> */}
 
           <Main />
           <NextScript />
