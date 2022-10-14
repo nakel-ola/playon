@@ -7,7 +7,6 @@ import Tabbar from "./Tabbar";
 const Layout = ({ children }: { children: ReactNode }) => {
   const isOnline = useOnlineStatus();
 
-  console.log(isOnline);
   return (
     <div className="flex overflow-hidden h-screen">
       <Sidebar />

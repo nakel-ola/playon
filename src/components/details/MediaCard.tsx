@@ -20,8 +20,6 @@ const MediaCard = ({ type, id, backdrop_path,poster_path }: Props) => {
 
   const gradientRef = useRef<HTMLDivElement>(null);
 
-  const dispatch = useDispatch()
-
   const [playing, setPlaying] = useState(false);
 
   const { data: newData } = useSWR<any>(
@@ -55,7 +53,7 @@ const MediaCard = ({ type, id, backdrop_path,poster_path }: Props) => {
   };
 
   return (
-    <div className="relative h-[520px] w-full">
+    <div className="relative max-h-[520px] md:h-[520px] w-full">
       {playing ? (
         <ReactPlayer
           url={`${config.VIDEO_URL}?v=${

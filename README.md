@@ -1,35 +1,129 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Play on [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-react-admin-template/blob/main/LICENSE)
+[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/berry-free-react-admin-template)](https://github.com/codedthemes/berry-free-react-admin-template/)
 
-First, run the development server:
+Playon is a free streaming website build using the nextjs. It is meant to be the best User Experience with highly customizable feature-riched pages. It is a complete nextjs website with easy and intuitive responsive design as on retina screens or laptops.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+:star: :star: :star: Do not forget to star (Top right of this page) it if you like the theme :star: :star: :star:
 
-<!-- https://playon.vercel.app/ -->
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![IMG_8566.jpg](https://playon.vercel.app/android-chrome-512x512.png)
+| [Feature](https://playon.vercel.app) | |
+| ---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------|
+| **7+** demo pages |
+| ✓ Popular |
+| ✓ Coming soon |
+| ✓ TypeScript version |
+| ✓ Reviews |
+| ✓ Watch Trailer |
+| ✓ Rating ⭐⭐⭐⭐ |
+| ✓ Firebase, Firebase authentications |
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Why Playon?
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Playon brings everything you need for stream platform development. We have added the following high-end features in the initial release.
 
-## Learn More
+ * Modern aesthetics UI design
+ * Tailwindcss components
+ * Fully Responsive, all modern browser supported
+ * Easy to use code structure
+ * Flexible & High-Performance code
+ * Easy Documentation Guide
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - [Demo](https://playon.vercel.app/)
 
-## Deploy on Vercel
+#### Download
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ - [Download from Github](https://github.com/olamilekan21/playon)
+ 
+ ## Playon Pro version
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Play On is available to purchase.
+#### Preview
+
+ - [Demo](https://playon.vercel.app)
+
+#### Purchase
+
+ - [Purchase from Fun UI Store](https://fun-ui.com/store/items/playon/)
+
+ ## Table of contents
+
+ * [Getting Started](#getting-started)
+ * [Documentation](#documentation)
+ * [Technology Stack](#technology-stack)
+ * [Author](#author)
+ * [Issues?](#issues)
+ * [License](#license)
+ * [More Products](#more-templates)
+ * [Follow us](#follow-us)
+ 
+ ## Getting Started
+
+Clone from Github 
+
+1. Clone this repo
+
+    ```sh
+    git clone https://github.com/olamilekan21/playon.git
+    ```
+
+2. Go into the project root directory
+
+    ```sh
+    cd playon
+    ```
+
+3. Install JS dependencies
+
+    ```sh
+    yarn
+    ```
+
+4. Start the dev server
+
+    ```sh
+    yarn dev
+    ```
+
+## Documentation
+
+[Playon documentation](https://codedthemes.gitbook.io/berry/) helps you out in all aspects from Installation to deployment.
+
+## Technology Stack
+
+ - NextJS
+ - TypeScript
+
+ - Built with React Hooks API
+ - Redux & React Context API for State Management
+ - Support of react-script
+ - Code Splitting
+ - CSS-in-JS where CSS is composed using JavaScript instead of defined in external files
+
+## Author
+
+Playon is managed by Team [fun-ui](https://codedthemes.com).
+
+## Issues
+
+Please generate a [Github issue](https://github.com/olamilekan21/playon/issues) if you found a bug in any version. We are trying to be responsive to resolve the issue.
+
+## License
+
+ - Licensed cover under [MIT](https://github.com/olamilekan21/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+
+## More Website
+
+ - [Free Grocery](https://codedthemes.com/item/materially-free-reactjs-admin-template/)
+ - [Free Grocery Dashboard](https://mantisdashboard.io/free/)
+
+## Follow us
+ - Website [https://playon.vercel.app](https://playon.vercel.app)
+ - Fun-UI [https://fun-ui.io](https://fun-ui.io)
+ - Instagram [https://instagram.com/lakky__t](https://instagram.com/lakky__t)

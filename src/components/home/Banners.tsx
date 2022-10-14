@@ -96,10 +96,10 @@ const Banners = ({ data }: { data: Movie }) => {
       {!playing && (
         <div className="absolute top-[50%] translate-y-[-50%] px-2">
           <div className="p-2 z-10">
-            <p className="text-white font-bold text-5xl w-[90vw] md:w-[40vw]">
+            <p className="text-white font-bold text-5xl w-[90vw] md:w-[40vw] my-1">
               {data?.title || data?.name || data?.original_title}
             </p>
-            <p className="text-sm text-white">{data?.release_date}</p>
+            <p className="text-sm text-white my-1">{data?.release_date}</p>
             <div className="flex">
               {newGenre &&
                 newGenre.map((genre: string | false, index: number) => (
