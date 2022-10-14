@@ -57,7 +57,7 @@ const HomeRows = ({ url, name }: Recommendation) => {
     <div ref={containerRef} className="" >
       <div className="flex items-center w-full justify-between">
         <p className="text-white text-xl font-semibold ml-5">{name}</p>
-        <div className="flex justify-between items-center mr-5">
+        <div className="flex justify-between items-center mr-2">
           <div
             className="w-[35px] h-[35px] mx-1 rounded-full bg-white flex items-center justify-center transition-all duration-300 md:hover:scale-105 active:scale-95"
             onClick={handleBack}

@@ -7,9 +7,9 @@ import Banners from "../components/home/Banners";
 import Categories from "../components/home/Categories";
 import Navbar from "../components/home/Navbar";
 import PopularRow from "../components/home/PopularRow";
+import { description, keywords } from "../components/seo";
 import fetchData from "../utils/fetchData";
 import { config } from "../utils/tmdb";
-import { description, keywords } from "./_app";
 
 type Props = {
   popular: TMDBResponse<Movie[]>;

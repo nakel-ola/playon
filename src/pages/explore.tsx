@@ -9,6 +9,7 @@ import { mutate } from "swr";
 import { Movie, TMDBResponse } from "../../typing";
 import Navbar from "../components/explore/Navbar";
 import Card from "../components/home/Card";
+import { description, keywords } from "../components/seo";
 import { selectExplore } from "../redux/features/exploreSlice";
 import {
   config,
@@ -16,7 +17,6 @@ import {
   getMoviesBycategory,
   getTrending,
 } from "../utils/tmdb";
-import { description, keywords } from "./_app";
 
 const Discover = () => {
   const [data, setData] = useState<TMDBResponse<Movie[]> | null>();
