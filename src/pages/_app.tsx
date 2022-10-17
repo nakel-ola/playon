@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta
           key="twitter:creator"
           name="twitter:creator"
-          content="@perfume-express"
+          content="@playon"
         />
         <meta
           key="og:url"
@@ -81,7 +81,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta
           name="title"
-          content="Welcome to perfumeexpress.vercel.app  -Best designer perfumes online sales in Nigeria: perfumeexpress.vercel.app"
+          content="Welcome to playon.vercel.app"
         ></meta>
         <meta
           name="google-site-verification"
